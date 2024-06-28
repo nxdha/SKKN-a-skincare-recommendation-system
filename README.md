@@ -1,38 +1,63 @@
-# skkn
+# SKKN - A Skincare Recommendation System
 
-A new Flutter project.
+## Introduction
+The skincare industry is rapidly evolving, emphasizing personalized solutions for individual needs. Our innovative Skin Care Recommendation System (SCRS) revolutionizes dermatological wellness by combining skin type analysis, personalized routines, and expert insights. Utilizing advanced machine learning algorithms and user-provided data, the SCRS offers tailored skincare regimens addressing issues like acne, aging, sensitivity, and hyperpigmentation.
+Users input their skin type and concerns, and the SCRS provides personalized routines, including cleansers, toners, serums, moisturizers, and treatments. The system features a user-friendly interface for managing routines, tracking progress, setting reminders, and discovering alternative products. Users can purchase recommended products directly through the platform, with detailed explanations of how ingredients target specific concerns. This transparency empowers users to make informed skincare choices, promoting effective skincare practices.
 
-## Getting Started
+## Features
+* Personalized Skincare Routines: Tailored regimens based on individual skin types and concerns such as acne, aging, sensitivity, and hyperpigmentation i.e.., Beginner, Intermediate and Advanced.
+* Advanced Machine Learning: Utilizes algorithms and user-provided data for precise recommendations.
+* User-Friendly Interface: Simple platform for managing skincare routines, tracking progress, and setting reminders.
+* Product Recommendations: Suggests optimal cleansers, toners, serums, moisturizers, and treatments.
+* Direct Purchases: Allows users to buy recommended products directly through the platform.
+* Alternative Products: Offers alternative options as skincare needs evolve.
 
-This project is a starting point for a Flutter application.
+## Installation
+Pre-requisites
+* Flutter SDK
+* Firebase Account
 
-A few resources to get you started if this is your first Flutter project:
+# Flutter Installation
+Follow the official Flutter installation guide: Flutter Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Setting Up an Emulator
+# Android Emulator
+1. Install Android Studio: Download and install Android Studio.
+2. Set Up Android Emulator:
+- Open Android Studio.
+- Go to AVD Manager by navigating to Tools > AVD Manager.
+- Click on Create Virtual Device.
+- Select a device definition and click Next.
+- Choose a system image and click Next.
+- Adjust the AVD properties as needed and click Finish.
+3. Start the Emulator :
+- Open AVD Manager.
+- Click the play button next to your virtual device to start the emulator.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Firebase Setup
+1. Go to the Firebase Console.
+2. Create a new project or use an existing project.
+3. Add an Android and/or iOS app to your Firebase project.
+4. Follow the setup instructions to download google-services.json (for Android).
+5. Place these configuration files in the appropriate directories of your Flutter project:
+- android/app/google-services.json
+
+For detailed setup instructions, refer to the official documentation:
+* Firebase for Flutter
+
+## Steps
+# Clone the repository
+git clone https://github.com/nxdha/SKKN-a-skincare-recommendation-system/tree/main
+
+# Navigate to the project directory
+cd lib
+
+# Install dependencies
+flutter pub get
+
+# Run the project
+flutter run
 
 
-The skincare industry is rapidly evolving, with a growing emphasis on personalized
-solutions that cater to individual needs and promote effective skincare practices. This abstract
-introduces an innovative Skin Care Recommendation System (SCRS) designed to revolutionize
-the approach to dermatological wellness by integrating skin type analysis, personalized
-routines.Utilizing advanced machine learning algorithms, user-provided data, and expert
-dermatological insights, the SCRS offers a holistic approach to skincare management. Central to
-its functionality is the analysis of skin types and concerns, guiding users towards tailored
-skincare routines that address specific issues such as acne, aging, sensitivity, or
-hyperpigmentation.Upon inputting their skin type and concerns, users are provided with
-personalized skincare regimens curated by the SCRS. These routines are meticulously crafted,
-considering the optimal combination of cleansers, toners, serums, moisturizers, and treatments to
-meet individual skincare goals.The SCRS goes the extra mile to make sure users have a smooth
-experience by offering a simple interface for managing skincare routines and product inventory.
-Users can easily keep track of their progress, set reminders for each step in their routine, and
-even discover alternative product options as their skincare needs change. Whats more, users can
-purchase recommended products directly through the platform based on their personalized
-skincare regimen, streamlining the entire process. Additionally, each product recommendation
-comes with detailed explanations, educating users on how the ingredients target specific skin
-concerns. This transparency empowers users to make informed decisions about their skincare
-choices, fostering a deeper understanding of effective skincare practices.
+
+
